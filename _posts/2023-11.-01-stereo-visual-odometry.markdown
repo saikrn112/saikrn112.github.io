@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Stereo Visual Odometry"
+date:   2022-12-12 23:59:59 +05:30
+image: /images/lego_gif.gif
+categories: project
+status: active
+coming_soon:
+status: active
+# code: https://github.com/saikrn112/active_vision_grasping
+---
+Implemented a full pipeline of stereo visual odometry
