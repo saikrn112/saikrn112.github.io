@@ -19,6 +19,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"> <!-- For brand icons like Google Scholar -->
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -44,22 +47,43 @@
                 I got my BS/MS in Aerospace Engineering from <a href="https://www.iitm.ac.in/">IIT Madras</a>, where I worked in <a href="https://raftlab.iitm.ac.in/index.html">Prof Ranjith Mohan's</a> lab on Aerial and Ground Robot Collaborative Navigation systems
               </p>
               <p>
-                I learn by teaching and as part of that effort I jot down my thoughts on concepts I learn. You can find all that information in my  <a href="https://publish.obsidian.md/saikrn112" >second brain</a>.
+                I learn by teaching and as part of that effort I jot down my thoughts on concepts I learn. You can find this in my  <a href="https://publish.obsidian.md/saikrn112" >obsidian second brain</a>.
               </p>
               <p style="text-align:center">
-                <a target="_blank" href="https://mailhide.io/e/sHZHq2zI"> Email</a> 
+                <a href="CV.pdf">
+                  <i class="fas fa-file-alt cv-icon"></i> 
+                  CV
+                </a> &nbsp;/&nbsp;
+                <a target="_blank" href="https://mailhide.io/e/sHZHq2zI"> 
+                  <i class="fas fa-envelope email-icon"></i> 
+                  Email
+                </a> 
                 &nbsp;/&nbsp;
-                <a href="https://github.com/saikrn112">GitHub</a> 
+                <a href="https://github.com/saikrn112">
+                  <i class="fab fa-github github-icon"></i> <!-- Corrected class name for GitHub icon -->
+                  GitHub
+                </a> 
                 &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=ECJRb3UAAAAJ&hl">Google Scholar</a> 
+                <a href="https://scholar.google.com/citations?user=ECJRb3UAAAAJ&hl">
+                  <i class="fab fa-google google-scholar-icon"></i> <!-- Corrected class name for Google Scholar icon -->
+                  Google Scholar
+                </a> 
                 &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/pinnama-ramana"> LinkedIn </a>
+                <a href="https://www.linkedin.com/in/pinnama-ramana"> 
+                  <i class="fab fa-linkedin linkedin-icon"></i> <!-- Corrected class name for LinkedIn icon -->
+                  LinkedIn 
+                </a>
                 &nbsp;/&nbsp;
-                <a href="https://publish.obsidian.md/saikrn112"> Obsidian Notes </a>
+                <a href="https://publish.obsidian.md/saikrn112"> 
+                  <!-- Obsidian Notes icon -->
+                  <img src="icons/obsidian-icon.ico" class="obsidian-icon"> 
+                  Obsidian Notes
+                </a>
               </p>
+              
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/ore_party.png">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/ore3_circle.jpg">
             </td>
           </tr>
         </table>
@@ -152,7 +176,7 @@
               <a href="{{post.arxiv}}">arxiv</a>
               {% endif %}
               {% if post.ieee %}
-              <a href="{{post.ieee}}">IEEE</a> /
+              <a href="{{post.ieee}}">IEEE Paper</a> /
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /

@@ -99,7 +99,42 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
-//@import "svg-icons";
+// @import "svg-icons";
+
+.email-icon {
+  color: #000000; /* Black for email icon */
+  margin-right: 5px;
+}
+
+.cv-icon {
+  color: #4a4a4a; /* Dark grey for CV icon */
+  margin-right: 5px;
+}
+
+.twitter-icon {
+  color: #1DA1F2; /* Twitter's brand color */
+  margin-right: 5px;
+}
+
+// .linkedin-icon {
+//   color: #4a4a4a; /* Dark grey for CV icon */
+//   margin-right: 5px;
+// }
+
+.google-scholar-icon {
+  color: #4a4a4a; /* Dark grey for CV icon */
+  margin-right: 5px;
+}
+
+.github-icon {
+  color: #181717; /* GitHub's brand color */
+  margin-right: 5px;
+}
+.obsidian-icon {
+  width: 20px; /* Adjust the width and height as needed */
+  height: 20px;
+}
