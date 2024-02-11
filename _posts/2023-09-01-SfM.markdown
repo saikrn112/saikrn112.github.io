@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Structure from Motion"
+date:   2022-12-12 23:59:59 +05:30
+image: /images/6.png
+categories: project
+coming_soon:
+status: active
+# code: https://github.com/saikrn112/active_vision_grasping
+---
+Simultaneously reconstructed 3D scene (Mapping) and extracted camera pose (Localization) from given camera correspondences using (Non)Linear triangulation, (Non)Linear PnP and Bundle Adjustment (BA) pipeline 
