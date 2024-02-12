@@ -9,4 +9,4 @@ authors: "<strong>Sai Ramana Kiran</strong>, Rishabh Singh, Manoj Velmurgan, Nit
 coming_soon:
 status: active
 ---
-We present an approach to achieve 100FPS optical flow inference speeds and demonstrate on real world robot autonomy experiments. (Currently under preparation for RAL) 
+We present an approach to achieve 100FPS optical flow inference speeds and demonstrate on real world robot autonomy experiments. (Currently under preparation for RA-L) 
