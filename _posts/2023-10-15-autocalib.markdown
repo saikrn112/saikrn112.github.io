@@ -8,4 +8,4 @@ coming_soon:
 status: active
 project_page: https://github.com/saikrn112/zhang-camera-calibration
 ---
-Implemented Zhang's camera calibration for pinhole camera model
+ Implemented Zhang’s camera calibration by nonlinear optimization of intrinsics and extrinsics
