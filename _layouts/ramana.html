@@ -283,7 +283,7 @@
         <br> -->
 
 
-        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Projects</h2>
@@ -303,10 +303,10 @@
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
+              <!-- <br> -->
+              <!-- <em>{{post.categories}} {{post.course}}</em> -->
+              <!-- <br> -->
+              <!-- {{ post.date | date: "%Y-%m-%d" }} -->
 
               <br>
               {% if post.website %}
@@ -339,6 +339,9 @@
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a> /
               {% endif %}
+              {% if post.project_page %}
+              <a href="{{post.project_page}}">project page</a> 
+              {% endif %}
               <p></p>
               {{ post.excerpt }}
             </td>
@@ -346,7 +349,7 @@
           {% endif %}
           {% endfor %}
           {% endfor %}
-        </table> -->
+        </table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>

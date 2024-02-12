@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "AutoCalib: Zhang's Calibration module"
-date:   2022-12-12 23:59:59 +05:30
-image: /images/lego_gif.gif
+date:   2022-10-13 23:59:59 +05:30
+image: /images/undistortion.gif
 categories: project
 coming_soon:
 status: active
-# code: https://github.com/saikrn112/active_vision_grasping
+project_page: https://github.com/saikrn112/zhang-camera-calibration
 ---
 Implemented Zhang's camera calibration for pinhole camera model

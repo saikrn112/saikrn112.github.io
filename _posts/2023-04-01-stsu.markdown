@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Enhancing Multi view structured Bird’s-Eye-View Traffic Scene Understanding from Onboard Images"
+date:   2023-04-01 23:59:59 +05:30
+image: /images/stsu.gif
+categories: project
+status: active
+coming_soon:
+# code: https://github.com/saikrn112/active_vision_grasping
+project_page: https://github.com/saikrn112/STSU
+slides: https://1drv.ms/p/s!AjqLYgmeMAszrj6r_7yUPoFc9U1f?e=LBO50D
+---
+Enhanced the original STSU's transformer architecture to use multi-view onboard images using enhanced positional encoding to construct better lane lines

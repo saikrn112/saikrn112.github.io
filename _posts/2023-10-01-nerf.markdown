@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Neural Radience Fields (NeRF)"
-date:   2022-12-12 23:59:59 +05:30
+date:   2022-10-19 23:59:59 +05:30
 image: /images/lego_gif.gif
 categories: project
 coming_soon:
 status: active
 # code: https://github.com/saikrn112/active_vision_grasping
+project_page: https://github.com/saikrn112/SfM-NeRF
 ---
 Implemented a full pipeline of NeRF
