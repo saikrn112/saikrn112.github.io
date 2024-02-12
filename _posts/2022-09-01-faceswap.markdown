@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Face Swap"
+date:   2022-09-01 23:59:59 +05:30
+image: /images/faceswap.gif
+categories: project
+status: active
+coming_soon:
+# code: https://github.com/saikrn112/active_vision_grasping
+project_page: https://github.com/saikrn112/face-swap-rbe549
+---
+Faceswap pipeline using Delaunay triangulation and Thin plate splines based warping and poisson blending in a video
