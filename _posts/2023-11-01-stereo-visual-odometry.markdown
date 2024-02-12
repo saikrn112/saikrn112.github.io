@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Stereo Visual Odometry"
+title:  "Stereo Visual Inertial Odometry"
 date:   2022-11-01 23:59:59 +05:30
 image: /images/vio.gif
 categories: project
